@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+    
+    <title>GameSearch</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+      
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Maven+Pro|Sansita" rel="stylesheet">
+
+  </head>
+
+  <body id="body1">
+
+		<nav id="Navbar" class="navbar navbar-default navbar-static-top navbar-fixed-top">
+  			<div class="container-fluid">
+   				<div class="navbar-header">
+      				<ul class="nav nav-pills" id="nav">
+        				<li class="active" id="home"><a class="navbarscroll" href="#body1">Home <span class="sr-only">(current)</span></a></li>
+       					<li><a class="navbarscroll" href="#freegames" id="Free games">Free Games</a></li>
+       					<li><a class="navbarscroll" href="#newgames">New games</a></li>
+       					<li><a class="navbarscroll" href="#">Most Popular Games</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Adventure</a></li>
+                    <li><a href="#">Casual</a></li>
+                    <li><a href="#">Indie</a></li>
+                    <li><a href="#">Multiplayer</a></li>
+                    <li><a href="#">Racing</a></li>
+                    <li><a href="#">RPG</a></li>      
+                    <li><a href="#">Sport</a></li>                                  
+                  </ul>
+                </li>
+        			</ul>
+    			</div>
+            <form id="Search" class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+                <button type="Search" class="btn btn-default">Search</button>
+            </form>
+ 			  </div>
+		</nav>
+
+    <div id="carousel-generic" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-generic" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active" id="img1">
+            <div class="carousel-caption">
+              <h1 id="Sitename"> GameSearch </h1>
+              <h3 id="Gamename"> Dota2 </h3>
+            </div>
+        </div>
+        <div class="item" id="img2">
+            <div class="carousel-caption">
+              <h1 id="Sitename2"> GameSearch </h1>
+              <h3 id="Gamename2"> Counter Strike Global Offensive </h3>
+            </div>
+        </div>
+        <div class="item" id="img3">
+          <div class="carousel-caption">
+            <h1 id="Sitename3"> GameSearch </h1>
+            <h3 id="Gamename3"> League of Legends </h3>
+          </div>
+        </div>
+      </div>
+
+      <a class="left carousel-control" href="#carousel-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <h1 id="freegames"> Free Games </h1>
+    
+    <div id="placement">  
+      <a href="http://www.teamfortress.com/">
+        <div id="tf2">
+          <h1 id="tf2txt">Team Fortress 2</h1>
+        </div>
+      </a>
+        <div id="rightsidegames">
+          <a href="http://blog.dota2.com/">
+            <div id="dota2">
+              <h1 id="dota2txt">Dota 2</h1>
+            </div>
+          </a>
+          <a href="https://warframe.com/landing">
+            <div id="warframe">
+              <h1 id="warframetxt">Warframe</h1>
+            </div>
+          </a>
+        </div>
+    </div>
+
+    <h1 id="morefreegames"> You can find more free games <a href="http://store.steampowered.com/genre/Free%20to%20Play">here</a>.
+
+    <h1 id="newgames"> New Games </h1>
+
+	</body>
+
+</html>

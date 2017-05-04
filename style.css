@@ -1,0 +1,184 @@
+#Backround {
+	width: 100%;
+	height: 725px;
+
+}
+
+#nav{
+	font-size: 18px;
+}
+
+body {
+	padding-top: 70px;
+	height: 725px;
+	width: 100%;
+	position: relative;
+	font-family: 'Sansita', sans-serif;
+	background-image: url();
+
+}
+
+#carousel-generic {
+	margin-top: -20px;
+}
+
+#Search {
+	float: right;
+}
+
+#Hometxt {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 1000%;
+	margin-left: 400px;
+	margin-top: 250px;
+}
+
+#img1 {
+	background-image: url("Dota2.jpg");
+	background-size: cover;
+	height: 800px;
+
+}
+
+#img2 {
+	background-image: url("CsGo.jpg");
+	background-size: cover;
+	height: 800px;
+
+}
+
+#img3 {
+	background-image: url("League of Legends.jpg");
+	background-size: cover;
+	height: 800px;
+}
+
+#nav {
+	margin-top: 5px;
+}
+
+#Sitename {
+	font-size: 600%;
+	font-family: 'Kaushan Script', cursive;
+
+}
+
+#Gamename {
+	font-family: 'Kaushan Script', cursive;
+}
+
+#Sitename2 {
+	font-size: 600%;
+	font-family: 'Kaushan Script', cursive;
+
+}
+
+#Gamename2 {
+	font-family: 'Kaushan Script', cursive;
+}
+
+#Sitename3 {
+	font-size: 600%;
+	font-family: 'Kaushan Script', cursive;
+
+}
+
+#Gamename3 {
+	font-family: 'Kaushan Script', cursive;
+}
+
+#placement {
+	margin-top: -100px;
+	margin-bottom: 100px;
+}
+#placement a:hover,
+#placement a:focus {
+	text-decoration: none;
+}
+
+#tf2 {
+	background-image: url(Tf2.jpg);
+	background-size: cover;
+	height: 500px;
+	width: 800px;
+	float: left;
+}
+
+#rightsidegames {
+	margin-left: 10px
+}
+
+#dota2 {
+	background-image: url(Dota2game.jpg);
+	background-size: cover;
+	height: 245px;
+	width: 400px;
+	padding-top: 150px;
+}
+
+#warframe {
+	background-image: url(Warframe.jpg);
+	background-size: cover;
+	height: 245px;
+	width: 400px;
+	padding-top: 150px;
+	margin-top:10px;
+}
+
+#freegames {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 600%;
+	margin-left: 560px;
+	margin-top: 100px;
+}
+
+#tf2txt {
+	margin-left: 270px;
+	margin-top: 400px;
+	font-family: 'Kaushan Script', cursive;
+	color: #DEB887;
+	font-size: 50px;
+}
+
+#dota2txt {
+	margin-left: 130px;
+	font-family: 'Kaushan Script', cursive;
+	color: #DEB887;
+	font-size: 50px;
+}
+
+#warframetxt {
+	margin-left: 105px;
+	font-family: 'Kaushan Script', cursive;
+	color: #DEB887;
+	font-size: 50px;
+}
+
+#morefreegames {
+	font-family: 'Kaushan Script', cursive;
+	margin-left: 550px;
+	margin-top: -50px;
+}
+
+a:link, a:visited { <
+    text-decoration: underline;
+    cursor: auto;
+}
+
+#newgames {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 600%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 100px;
+}
+
+#placement {
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+}
