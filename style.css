@@ -5,7 +5,8 @@
 }
 
 #nav{
-	font-size: 18px;
+	font-size: 150%;
+
 }
 
 body {
@@ -14,8 +15,6 @@ body {
 	width: 100%;
 	position: relative;
 	font-family: 'Sansita', sans-serif;
-	background-image: url();
-
 }
 
 #carousel-generic {
@@ -24,13 +23,6 @@ body {
 
 #Search {
 	float: right;
-}
-
-#Hometxt {
-	font-family: 'Kaushan Script', cursive;
-	font-size: 1000%;
-	margin-left: 400px;
-	margin-top: 250px;
 }
 
 #img1 {
@@ -105,7 +97,7 @@ body {
 }
 
 #rightsidegames {
-	margin-left: 10px
+	margin-left: 10px;
 }
 
 #dota2 {
@@ -181,4 +173,56 @@ a:link, a:visited { <
     margin-left: auto;
     margin-right: auto;
     max-width: 75%;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 1000px;
+}
+
+.flex-item {
+    width: 40%;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 10px;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 36px;
+}
+
+#newgames1{
+	background-image: url(Blockhood.jpg);
+	background-size: cover;
+	color: #DEB887;
+
+}
+
+#newgames2{
+	background-image: url(RenownedExplorers.jpg);
+	background-size: cover;
+	color: #DEB887;	
+}
+
+#newgames3{
+	background-image: url(Strafe.png);
+	background-size: cover;
+	color: #DEB887;	
+}
+
+#newgames4{
+	background-image: url(Prey.png);
+	background-size: cover;
+	color: #DEB887;	
+}
+
+.center{
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
 }
