@@ -152,11 +152,6 @@ body {
 	margin-top: -50px;
 }
 
-a:link, a:visited {
-    text-decoration: underline;
-    cursor: auto;
-}
-
 #newgames {
 	font-family: 'Kaushan Script', cursive;
 	font-size: 600%;
@@ -225,4 +220,13 @@ a:link, a:visited {
 .center{
 	text-align: center;
 	font-family: 'Kaushan Script', cursive;
+}
+
+.anewgames {
+	width: 50%;
+	height: 50%;
+}
+
+.flex-item:hover{
+	text-decoration: none;
 }
