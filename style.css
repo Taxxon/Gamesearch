@@ -261,7 +261,6 @@ a:focus{
 .flex-container1 {
     display: flex;
     flex-wrap: wrap;
-    content: center;
     justify-content: center;
     align-content: center;
     width: 100%;
