@@ -88,6 +88,11 @@ body {
 	text-decoration: none;
 }
 
+a:hover,
+a:focus{
+	text-decoration: none;
+}
+
 #tf2 {
 	background-image: url(Tf2.jpg);
 	background-size: cover;
@@ -229,4 +234,87 @@ body {
 
 .flex-item:hover{
 	text-decoration: none;
+}
+
+#popgames{
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 600%;
+}
+
+#hs{
+	background-image: url(Hearthstone.jpg);
+	background-size: cover;
+	color: #DEB887;
+}
+
+#lol{
+	background-image: url(LeagueofLegends.jpg);
+	background-size: cover;
+	font-size: 500%;
+	color: #DEB887;
+}
+
+#Overwatch{
+	background-image: url(Overwatch.jpg);
+	background-size: cover;
+	color: #DEB887;
+}
+
+.flex-container1 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 900px;
+}
+
+.flex-item1 {
+    width: 45%;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 500px;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 36px;
+}
+
+.flex-item-lol {
+    width: 91%;
+    height: 91%;
+    margin: 10px;
+    text-align: center;
+    margin-top: 10px;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 36px;
+}
+
+#Single{
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	margin-top: 500px;	
+}
+
+#Quantum{
+	background-image: url(Quantum.jpg);
+	background-size: cover;
+	color: #DEB887;
+}
+
+#Tekken{
+	background-image: url(Tekken7.jpg);
+	background-size: cover;
+	color: #DEB887;
+}
+
+#Witcher{
+	background-image: url(Whitcher.jpg);
+	background-size: cover;
+	color: #DEB887;
+	font-size: 500%;
 }
